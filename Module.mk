@@ -175,6 +175,7 @@ include src/main/jbhook-util-p3io/Module.mk
 include src/main/jbhook1/Module.mk
 include src/main/jbhook2/Module.mk
 include src/main/jbhook3/Module.mk
+include src/main/kbemu-jbio/Module.mk
 include src/main/launcher/Module.mk
 include src/main/mempatch-hook/Module.mk
 include src/main/mm/Module.mk
@@ -582,6 +583,7 @@ $(zipdir)/jb-hwio.zip: \
 		build/bin/indep-32/eamio-icca.dll \
 		build/bin/indep-32/jbio-magicbox.dll \
 		build/bin/indep-32/jbio-p4io.dll \
+		build/bin/indep-32/kbemu-jbio.exe \
 		dist/jb/jbio-h44b.conf \
 		dist/jb/eamio-icc.conf \
 		| $(zipdir)/
